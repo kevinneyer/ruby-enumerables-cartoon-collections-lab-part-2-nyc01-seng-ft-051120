@@ -32,7 +32,9 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   
   planeteer_calls.find do |n|
-    try_this = valid_calls.each
+    try_this = valid_calls.each do |x|
+      x 
+    end 
     n == try_this
   end 
 end 
