@@ -41,7 +41,6 @@ def find_valid_calls(planeteer_calls)
       i += 1 
     end 
      x == team 
-  end 
   end
 
 
