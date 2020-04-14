@@ -37,10 +37,14 @@ def find_valid_calls(planeteer_calls)
     i = 0 
     while i < valid_calls.length do
       team = valid_calls[i]
+    end 
       i += 1 
     end 
      x == team 
   end 
   end
+
+
+
 end 
 
