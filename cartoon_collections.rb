@@ -34,8 +34,8 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |n|
     i = 0 
     n = planeteer_calls == valid_calls[i]
-    i += 1 
   end
+    i += 1 
 end 
     
 
