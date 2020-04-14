@@ -1,3 +1,5 @@
+require 'pry'
+
 def square_array(array)
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
@@ -32,11 +34,9 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   
   planeteer_calls.find do |n|
-    try_this = valid_calls.each do |x|
-      x 
-    end 
-    n == try_this
+    n == valid_calls.each 
   end 
+  binding.pry 
 end 
     
 
